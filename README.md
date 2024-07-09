@@ -9,7 +9,7 @@ Our client has tasked us with creating a dynamic and user-friendly product disco
 # Target Browser
 Chrome
 # User Manual
-Visit the following doc file for information: https://github.com/GamerPotato/INST377-Group-37/blob/main/INST377%20-%20Group%207%20Developer%20Manual.txt
+Visit the following doc file for information: https://github.com/foyeshile/DistilleryProj/blob/main/INST377%20-%20Group%207%20Developer%20Manual.md
 # Developer Manual
 ## To run on a server
 In order to be run on a server, if VSCode is being utilized, the Live Server extention should be installed.
