@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Discovery Platform</title>
+    <script type="text/javascript" src="mainJS.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: rgb(0, 204, 255);
+
+        }
+
+        header {
+            background-color: rgb(0, 179, 255);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #main-nav {
+            background-color: rgb(0, 145, 255);
+            padding: 10px;
+            text-align: center;
+        }
+
+        #main-nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+        }
+
+        #main-nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        h2 {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>INST377 - Group 7: Product Discovery Platform</h1>
+        <p>Whiskey Distilleries and Ratings</p>
+    </header>
+
+    <nav id="main-nav">
+        <a href="main.html">Main</a>
+        <a href="about.html">About</a>
+        <a href="documentation.html">Documentation</a>
+    </nav>
+
+    <!-- API Information Section -->
+    <section>
+        <h2>API Information</h2>
+        <p>Include details about the API's used.</p>
+        <p>The API from the auction side "Whisky Hunter" was utilized,
+            allowing for information on auctions and distilleries in 
+            multiple countries to be analyzed. 
+        </p>
+    </section>
+
+    <!-- Libraries Used Section -->
+    <section>
+        <h2>Libraries Used</h2>
+        <p>List the libraries and frameworks used in the project w/ brief descriptions.</p>
+        <p>A library that is being used for this project is Chart.JS. 
+            When a user selects a country to see distillery ratings, 
+            the scatter chart shows the relationship between that country's 
+            distillery's rating by the number of whiskey varieties they
+            produce</p>
+    </section>
+
+    <!-- NPM Commands Section -->
+    <section>
+        <h2>NPM Commands</h2>
+        <p>Provide NPM commands used for managing dependencies, building, or running the project.</p>
+        <p>npm install chart.js was used to get the Chart.JS library.</p>
+    </section>
+
+</body>
+</html>
